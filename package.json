@@ -1,0 +1,15 @@
+{
+  "name": "@ryanburnette/end-sentence-punctuation",
+  "version": "1.0.0",
+  "description": "For when I'm annoyed that sentences don't have punctuation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanburnette/end-sentence-punctuation.git"
+  },
+  "author": "Ryan Burnette <ryan.burnette@gmail.com> (https://ryanburnette.com)",
+  "license": "ISC"
+}
