@@ -3,6 +3,7 @@
     if (!str) {
       return str;
     }
+    str = str.trim();
     var lastChar = str[str.length - 1];
     var lastCharMatch = lastChar.match(/[\.|\"|\?|\!]/);
     if (!lastCharMatch) {

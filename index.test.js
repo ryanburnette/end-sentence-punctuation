@@ -20,3 +20,9 @@ test('sentence ending with question mark', function () {
   var sentence = 'What did she say?';
   expect(punctuate(sentence)).toBe(sentence);
 });
+
+test('sentence with extra spaces at the end', function () {
+  var sentenceBefore = 'She said some stuff, but I did not listen. ';
+  var sentenceAfter = 'She said some stuff, but I did not listen.';
+  expect(punctuate(sentenceBefore)).toBe(sentenceAfter);
+});

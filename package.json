@@ -1,6 +1,6 @@
 {
   "name": "@ryanburnette/end-sentence-punctuation",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "For when I'm annoyed that sentences don't have punctuation.",
   "main": "index.js",
   "scripts": {
